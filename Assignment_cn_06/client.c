@@ -73,6 +73,7 @@ int main()
 
     // Send file data
     write(sock, file_data, strlen(file_data) + 1);
+    
 
     // Receive response
     int n = read(sock, response,
